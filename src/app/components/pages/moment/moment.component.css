@@ -20,17 +20,21 @@ img {
 
 .about-moment, 
 .actions {
-    padding-bottom: 1em;
     border-bottom: 1px solid #ccc;
     padding: 1.2em;
+    width: 100%;
 }
 
 .actions {  
-    background-color: #eeeeee73;
+    background-color: #eeeeee11;
     border-radius: 3px;
 }
 
 .comments {
     margin-bottom: 1em;
     padding: 1.5em;
+}
+
+h3 {
+    padding-bottom: 0.8em;
 }

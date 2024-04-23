@@ -75,9 +75,34 @@ input[type="submit"]:hover {
     cursor: pointer;
     background-color: #fff;
     transition: 0.4s;
+    border-radius: 3px;
 }
 
 button fa-icon,
 a fa-icon {
     margin-right: 0.2em;
+}
+
+.edit-btn,
+.edit-btn path {
+    border-color: #007bff;
+    color: #007bff;
+}
+
+.edit-btn:hover,
+.edit-btn:hover path {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.remove-btn,
+.remove-btn path {
+    border-color: #DC3545;
+    color: #DC3545;
+}
+
+.remove-btn:hover,
+.remove-btn:hover path {
+    color: #fff;
+    background-color: #DC3545;
 }

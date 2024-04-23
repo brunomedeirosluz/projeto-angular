@@ -10,15 +10,16 @@
   </div>
   <div class="actions">
     <h3>Ações:</h3>
-    <a href="/moments/edit/{{moment.id}}" class="edit-btn">
+    <a routerLink="/moments/edit/{{moment.id}}" class="edit-btn">
         <fa-icon [icon]="faEdit"></fa-icon> Editar
     </a>
-    <button class="remove-btn">
-        <fa-icon [icon]="faTimes"></fa-icon> Excluir
+    <button class="remove-btn" (click)="removeHandler(moment.id!)">
+        <fa-icon [icon]="faTimes" >
+        </fa-icon> Excluir
     </button>
   </div>
   <!-- TODO Comentarios -->
   <div class="comments">
-    <p>Comentários</p>
+    <h3>Comentários (0) </h3>
   </div>
 </div>
