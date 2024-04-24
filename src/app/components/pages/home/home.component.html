@@ -20,7 +20,9 @@
             />
             <h3> {{ moment.title }}</h3>
             <p class="date">Em: {{ moment.created_at }}</p>
-            <p>Comentários: {{ moment.comments }}</p>
+            <div *ngFor=" let comment of moment.comments">
+            <p>Comentários: {{ comment.text }}</p>
+            </div>
             <a routerLink="moments/{{ moment.id }}">Detalhes</a>
         </div>
       </div>

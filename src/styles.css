@@ -50,6 +50,7 @@ input[type="submit"] {
     font-size: 0.8em;
     cursor: pointer;
     transition: 0.2s;
+    border-radius: 4px;
 }
 
 input[type="submit"]:hover {
